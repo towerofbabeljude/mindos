@@ -1,0 +1,64 @@
+# =====================
+# Python / Backend
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-log.txt
+*.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+.mypy_cache/
+.pytest_cache/
+
+# SQLite database (auto-regenerated on first run)
+backend/mindos.db
+*.db
+*.sqlite3
+
+# ML saved models (auto-retrained on first run)
+backend/app/ml/saved_models/
+
+# =====================
+# Node.js / Frontend
+# =====================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================
+# Environment / Secrets
+# =====================
+.env
+.env.local
+.env.*.local
+*.env
+
+# =====================
+# OS & Editor
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.suo
+*.sw?
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/

@@ -1,0 +1,1 @@
+# Isolated Gemini AI module
